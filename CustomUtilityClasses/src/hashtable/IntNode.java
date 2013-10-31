@@ -3,12 +3,14 @@ package hashtable;
 public class IntNode
 {
 	private int dataValue = 0;
+	private int key;
 	private IntNode next = null;
 	
 	//constructor
-	public IntNode(int dataValue)
+	public IntNode(int dataValue, int key)
 	{
 		this.dataValue = dataValue;
+		this.key = key;
 	}
 	
 	//get and set methods
