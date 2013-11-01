@@ -2,24 +2,24 @@ package hashtable;
 
 public class StringNode
 {
-	private String data, key;
+	private String value, key;
 	private StringNode nextNode = null;
 	
-	public StringNode(String data, String key, StringNode nextNode)
+	public StringNode(String value, String key, StringNode nextNode)
 	{
-		this.setData(data);
+		this.setData(value);
 		this.setKey(key);
 		this.setNextNode(nextNode);
 	}
 
-	public String getData()
+	public String getValue()
 	{
-		return data;
+		return value;
 	}
 
-	public void setData(String data)
+	public void setData(String value)
 	{
-		this.data = data;
+		this.value = value;
 	}
 
 	public String getKey()
