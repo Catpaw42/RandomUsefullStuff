@@ -5,7 +5,7 @@ public class StringNode
 	private String data, key;
 	private StringNode nextNode = null;
 	
-	public StringNode(String data, String key, StringNode nextNode)
+	public StringNode(String key, String data, StringNode nextNode)
 	{
 		this.setData(data);
 		this.setKey(key);
