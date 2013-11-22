@@ -3,7 +3,6 @@
  */
 //Vi kan nok skille os af med lastRoll metoder og tilgeng�ld add en account?
 //Score kan vidst ogs� godt forsvinde da det skal varetages af account?
-//FIXME: add account
 package sorting;
 
 public class Player
